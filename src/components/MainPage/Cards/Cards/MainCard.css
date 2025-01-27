@@ -1,0 +1,70 @@
+.main-card {
+    height: 280px;
+    background-color: #00053E;
+    width: 1000px;
+    border-radius: 8px;
+  }
+  
+.main-card:hover {
+    background-color: #000541;
+}
+
+.header-card-name {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* font-family: Luckiest Guy, Manrope; */
+    font-weight: 600;
+    font-size: 24pt;
+    color: white;
+    width: 260px;
+}
+
+@media (max-width: 1300px) {
+    .main-card {
+      height: 280px;
+      /* background-color: blue; */
+      width: 1000px;
+    }
+}
+  
+@media (max-width: 1000px) {
+    .main-card {
+      height: 280px;
+      /* background-color: blue; */
+      width: 700px;
+    }
+}
+  
+@media (max-width: 800px) {
+    .main-card {
+      height: 280px;
+      /* background-color: blue; */
+      width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-card {
+        width: 400px;
+    }
+
+    .header-card-name {
+        font-size: 18pt;
+        width: 180px;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-card {
+      height: 200px;
+      width: 370px;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-card {
+      height: 200px;
+      width: 340px;
+    }
+}

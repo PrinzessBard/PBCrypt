@@ -1,0 +1,38 @@
+.header-card-name {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* font-family: Luckiest Guy, Manrope; */
+    font-weight: 600;
+    font-size: 24pt;
+    color: white;
+    width: 260px;
+}
+
+.left-card {
+    background-color: #00053E;
+    height: 280px;
+    border-radius: 8px;
+}
+  
+  
+.left-card:hover {
+    background-color: #000541;
+}
+
+@media (max-width: 600px) {
+    .left-card {
+        height: 190px;
+    }
+
+    .header-card-name {
+        font-size: 18pt;
+        width: 180px;
+    }
+}
+
+@media (max-width: 420px) {
+    .left-card {
+        height: 170px;
+    }
+}

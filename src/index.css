@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Manrope:wght@200..800&display=swap');
 
+.root {
+    font-family: Luckiest Guy, Manrope;
+    /* background-color: #000218; */
+} 

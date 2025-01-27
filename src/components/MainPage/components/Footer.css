@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 90px;
+    color: white;
+    /* font-family: Luckiest Guy, Manrope; */
+    height: 50px;
+}
+
+@media (max-width: 420px) {
+    .footer {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer {
+      margin-top: 250px;
+    }
+}

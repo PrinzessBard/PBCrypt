@@ -1,0 +1,57 @@
+.header {
+    background-color: #000218;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  
+.logo {
+    background-color: #000218;
+    /* margin-top: 5px; */
+    width: 85px;
+}
+  
+.logo-name {
+    background-color: #00053E;
+    padding-top: 11px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    margin-top: 13px;
+    color: white;
+    font-size: 20pt;
+    /* font-family: Luckiest Guy, Manrope; */
+    font-weight: 800;
+}
+
+/* TonConnectButton {
+    background-color: blue;
+} */
+
+@media (max-width: 600px) {
+    .header-card-name {
+        font-size: 18pt;
+        width: 180px;
+    }
+}
+
+@media (max-width: 420px) {
+    .logo {
+        width: 50px;
+      }
+    
+    .logo-name {
+        margin-top: 16px;
+        font-size: 14pt;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo-name {
+        margin-top: 4px;
+    }
+}

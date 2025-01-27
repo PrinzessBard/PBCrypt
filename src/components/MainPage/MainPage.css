@@ -1,0 +1,19 @@
+.wrapper {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 50px 1fr 1fr 20px;
+    grid-template-columns:  1fr;
+    grid-gap: 30px;
+  }
+  
+@media (max-width: 600px) {
+    .wrapper {
+      grid-gap: 20px;
+    }
+}
+  
+@media (max-width: 420px) {
+    .wrapper {
+      grid-gap: 10px;
+    }
+}
